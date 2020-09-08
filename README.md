@@ -7,7 +7,7 @@ Class: fundaments of C++ (c11)
 
 ## Definitions
 
-### Variables
+### Variables aritimétiicos
 bool: almacena el valor verdadero o falso.
 char: normalmente un solo octeto (un byte). Este es un tipo entero.
 int: El tamaño más natural de entero para la máquina.
@@ -16,7 +16,7 @@ doble: un valor de coma flotante de doble precisión.
 void: Representa la ausencia de tipo.
 wchar_t: un tipo de carácter amplio.
 
-### Operadores aritimétiicos
+### Operadores aritiméticos
 Los operadores aritméticos se pueden utilizar para combinaciones apropiadas de estos tipos:				
 * x + y // sumar
 * +x // incrementar
