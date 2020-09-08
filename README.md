@@ -2,29 +2,37 @@
 
 #LABORATORIO DE ALGORITIMOS 
 
-Copyright (C) 2020 Geoffrey Porto <geoffrey.porto@tecmilenio.mx>
-Class: fundaments of C++ (c11)
+* Copyright (C) 2020 Geoffrey Porto <geoffrey.porto@tecmilenio.mx>
+* Class: Fundaments of programming in C++ (c11)
+* Date: 2020-08
 
 ## Definitions
 
 ### Variables 
 bool: almacena el valor verdadero o falso.
 char: normalmente un solo octeto (un byte). Este es un tipo entero.
+short: 
 int: El tamaño más natural de entero para la máquina.
+log: Va
 float: un valor de punto flotante de precisión simple.
 doble: un valor de coma flotante de doble precisión.
 void: Representa la ausencia de tipo.
 wchar_t: un tipo de carácter amplio.
+   short  s;
+   int    i;
+   long   l;
+   float  f;
+   double d;
 
 ### Operadores aritiméticos
 Los operadores aritméticos se pueden utilizar para combinaciones apropiadas de estos tipos:				
-* x + y // sumar
-* +x // incrementar
-* x − y // menos
-* −x // decrementar
-* x ∗ y // multiplicar
-* x / y // dividir
-* x% y // resto (módulo) para enteros
+* x + y // sumar, Agrega dos operandos A + B
+* +x // incrementar, Operador de incremento, aumenta el valor entero en uno A++
+* x − y // menos, Resta el segundo operando del primer A - B
+* −x // decrementar, Operador de disminución, disminuye el valor entero en una A--
+* x ∗ y // multiplicar, Multiplica ambos operandos A * B
+* x / y // dividir, Divide el numerador por el numerador B / A
+* x% y // resto (módulo) para enteros, Operador de módulo y el resto de después de una división entera
 
 ### Operadores de comparación
 También pueden los operadores de comparación:
@@ -34,6 +42,47 @@ También pueden los operadores de comparación:
 * x> y // mayor que
 * x <= y // menor o igual x> = y // mayor o igual que
 
+### Loops y bucles
+Los ciclos repetitivos de ejecucion código.
+* Loop "while"
+Repite una declaración o un grupo de declaraciones mientras una condición determinada es verdadera. Prueba la condición antes de ejecutar el cuerpo del bucle.
+
+* Lopp "For"
+Ejecuta una secuencia de declaraciones varias veces y abrevia el código que administra la variable de ciclo.
+
+* Lopp "do ... while"
+Como una declaración "while", excepto que prueba la condición al final del cuerpo del bucle.
+
+* Loops anidados
+Puede utilizar uno o más bucles dentro de cualquier otro bucle "while", "for" o "do.. while".
+
+### Declaraciones de Decisión (If, )
+* declaración "If"
+Una declaración "si" consta de una expresión booleana seguida de una o más declaraciones.
+
+* declaración "if ... else"
+Una instrucción "if" puede ir seguida de una instrucción "else" opcional, que se ejecuta cuando la expresión booleana es falsa.
+
+* declaración "switch"
+Una declaración de "cambio" permite probar la igualdad de una variable con una lista de valores.
+
+* declaraciones "if" anidadas
+Puede utilizar una declaración "si" o "más si" dentro de otra declaración "si" o "más si".
+
+* declaraciones de "switch" anidadas
+Puede utilizar una declaración de "cambio" dentro de otra declaración de "cambio".
+
+### Librerias base
+Las librerias base más importantes de C++.
+* <iostream>
+Este archivo define los objetos cin, cout, cerr y clog, que corresponden al flujo de entrada estándar, el flujo de salida estándar, el flujo de error estándar sin búfer y el flujo de error estándar con búfer, respectivamente.
+
+* <iomanip>
+Este archivo declara servicios útiles para realizar E / S formateadas con los llamados manipuladores de flujo parametrizados, como setw y setprecision.
+
+* <fstream>
+Este archivo declara servicios para el procesamiento de archivos controlado por el usuario. Lo discutiremos en detalle en el capítulo relacionado con archivos y secuencias.
+
 ### Markdown para Consola
 * Shell:      console, Shell
 * Bash:       bash, sh, zsh
@@ -42,6 +91,60 @@ También pueden los operadores de comparación:
 
 ```{r, engine='zsh', count_lines}
    sudo your cmd
+```
+
+
+## Labs of Numbers
+
+```cpp
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*  NOMBRE:  GEOFFREY PORTO                                    FECHA:              *
+*  MATRICULA:                                                                     *
+*  OBJETIVO: CALCULAR LA DISTANCIA ENTRE DOS PUNTOS USANDO TEOREAM DE PITAGORA    *
+*  ENTRADA: LAS COORDENADAS DE LOS DOS PUNTOS (X1, Y1) y (X2 , Y2)                *
+*  SALIDA: LA DISTANCIA ENTRE LOS DOS PUNTOS                                      *
+*                                                                                 *
+* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#ifdef NUMEROS
+
+#include <iostream>
+using namespace std;
+ 
+int main () {
+   // Numeros
+   short  s;
+   int    i;
+   long   l;
+   float  f;
+   double d;
+   
+   // Valores
+   s = 10;      
+   i = 100;    
+   l = 100000; 
+   f = 170.27;  
+   d = 20741.957;
+   
+   // Mostrar los valores
+   cout << "short  s :" << s<< "\n";
+   cout << "int    i :" << i << "\n";
+   cout << "long   l :" << l << "\n";
+   cout << "float  f :" << f << "\n";
+   cout << "double d :" << d << "\n";
+
+   // operaciones mathematicas;
+   cout << "sin(d) :" << sin(d) << "\n";
+   cout << "abs(i)  :" << abs(i) << "\n";
+   cout << "floor(d) :" << floor(d) << "\n";
+   cout << "sqrt(f) :" << sqrt(f) << "\n";
+   cout << "pow( d, 2) :" << pow(d, 2) << "\n";
+ 
+   return 0;
+}
+
+#endif
 ```
 
 ## Labs of Class

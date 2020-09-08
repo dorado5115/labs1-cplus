@@ -35,6 +35,55 @@ También pueden los operadores de comparación:
 */
 
 
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*  NOMBRE:  GEOFFREY PORTO                                    FECHA:              *
+*  MATRICULA:                                                                     *
+*  OBJETIVO: CALCULAR LA DISTANCIA ENTRE DOS PUNTOS USANDO TEOREAM DE PITAGORA    *
+*  ENTRADA: LAS COORDENADAS DE LOS DOS PUNTOS (X1, Y1) y (X2 , Y2)                *
+*  SALIDA: LA DISTANCIA ENTRE LOS DOS PUNTOS                                      *
+*                                                                                 *
+* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#ifdef NUMEROS
+
+#include <iostream>
+using namespace std;
+ 
+int main () {
+   // Numeros
+   short  s;
+   int    i;
+   long   l;
+   float  f;
+   double d;
+   
+   // Valores
+   s = 10;      
+   i = 100;    
+   l = 100000; 
+   f = 170.27;  
+   d = 20741.957;
+   
+   // Mostrar los valores
+   cout << "short  s :" << s<< "\n";
+   cout << "int    i :" << i << "\n";
+   cout << "long   l :" << l << "\n";
+   cout << "float  f :" << f << "\n";
+   cout << "double d :" << d << "\n";
+
+   // operaciones mathematicas;
+   cout << "sin(d) :" << sin(d) << "\n";
+   cout << "abs(i)  :" << abs(i) << "\n";
+   cout << "floor(d) :" << floor(d) << "\n";
+   cout << "sqrt(f) :" << sqrt(f) << "\n";
+   cout << "pow( d, 2) :" << pow(d, 2) << "\n";
+ 
+   return 0;
+}
+
+#endif
+
+
 /* 
 LABORATORIO DE ALGORITIMOS 
 
@@ -162,8 +211,8 @@ int main() {
     }
 
     //Imprime al usuario los datos de salida
-    cout<<"los numeros pares son:"<<p<<endl;
-    cout<<"los numeros impares son:"<<i<<endl;
+    cout<<"los numeros pares son:"<<p<< "\n";
+    cout<<"los numeros impares son:"<<i<< "\n";
 }
 
 #endif
