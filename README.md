@@ -7,7 +7,7 @@ Class: fundaments of C++ (c11)
 
 ## Definitions
 
-### Variables aritimétiicos
+### Variables 
 bool: almacena el valor verdadero o falso.
 char: normalmente un solo octeto (un byte). Este es un tipo entero.
 int: El tamaño más natural de entero para la máquina.
