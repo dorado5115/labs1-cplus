@@ -9,20 +9,31 @@
 ## Definitions
 
 ### Variables 
-bool: almacena el valor verdadero o falso.
-char: normalmente un solo octeto (un byte). Este es un tipo entero.
-short: 
-int: El tamaño más natural de entero para la máquina.
-log: Va
-float: un valor de punto flotante de precisión simple.
-doble: un valor de coma flotante de doble precisión.
-void: Representa la ausencia de tipo.
-wchar_t: un tipo de carácter amplio.
-   short  s;
-   int    i;
-   long   l;
-   float  f;
-   double d;
+* bool 
+    
+    Almacena el valor verdadero o falso.
+* char 
+
+    Normalmente un solo octeto (un byte). Este es un tipo entero.
+* short: 
+* int
+    
+    El tamaño más natural de entero para la máquina.
+* long
+    
+    Variable largo
+* float
+    
+    Un valor de punto flotante de precisión simple.
+* doble
+    
+    Un valor de coma flotante de doble precisión.
+* void
+    
+    Representa la ausencia de tipo.
+* wchar_t
+    Un tipo de carácter amplio.
+
 
 ### Operadores aritiméticos
 Los operadores aritméticos se pueden utilizar para combinaciones apropiadas de estos tipos:				
