@@ -56,7 +56,7 @@ Como una declaración "while", excepto que prueba la condición al final del cue
 * Loops anidados
 Puede utilizar uno o más bucles dentro de cualquier otro bucle "while", "for" o "do.. while".
 
-### Declaraciones de Decisión (If, )
+### Declaraciones de Decisión (If, else, switch )
 * declaración "If"
 Una declaración "si" consta de una expresión booleana seguida de una o más declaraciones.
 
@@ -74,13 +74,13 @@ Puede utilizar una declaración de "cambio" dentro de otra declaración de "camb
 
 ### Librerias base
 Las librerias base más importantes de C++.
-* <iostream>
+* "<iostream>"
 Este archivo define los objetos cin, cout, cerr y clog, que corresponden al flujo de entrada estándar, el flujo de salida estándar, el flujo de error estándar sin búfer y el flujo de error estándar con búfer, respectivamente.
 
-* <iomanip>
+* "<iomanip>"
 Este archivo declara servicios útiles para realizar E / S formateadas con los llamados manipuladores de flujo parametrizados, como setw y setprecision.
 
-* <fstream>
+* "<fstream>"
 Este archivo declara servicios para el procesamiento de archivos controlado por el usuario. Lo discutiremos en detalle en el capítulo relacionado con archivos y secuencias.
 
 ### Markdown para Consola
