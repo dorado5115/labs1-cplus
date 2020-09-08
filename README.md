@@ -58,15 +58,19 @@ Puede utilizar uno o más bucles dentro de cualquier otro bucle "while", "for" o
 
 ### Declaraciones de Decisión (If, else, switch )
 * declaración "If"
+
 Una declaración "si" consta de una expresión booleana seguida de una o más declaraciones.
 
 * declaración "if ... else"
+
 Una instrucción "if" puede ir seguida de una instrucción "else" opcional, que se ejecuta cuando la expresión booleana es falsa.
 
 * declaración "switch"
+
 Una declaración de "cambio" permite probar la igualdad de una variable con una lista de valores.
 
 * declaraciones "if" anidadas
+
 Puede utilizar una declaración "si" o "más si" dentro de otra declaración "si" o "más si".
 
 * declaraciones de "switch" anidadas
@@ -75,7 +79,8 @@ Puede utilizar una declaración de "cambio" dentro de otra declaración de "camb
 ### Librerias base
 Las librerias base más importantes de C++.
 * iostream
-** Este archivo define los objetos cin, cout, cerr y clog, que corresponden al flujo de entrada estándar, el flujo de salida estándar, el flujo de error estándar sin búfer y el flujo de error estándar con búfer, respectivamente.
+
+Este archivo define los objetos cin, cout, cerr y clog, que corresponden al flujo de entrada estándar, el flujo de salida estándar, el flujo de error estándar sin búfer y el flujo de error estándar con búfer, respectivamente.
 
 * iomanip
 Este archivo declara servicios útiles para realizar E / S formateadas con los llamados manipuladores de flujo parametrizados, como setw y setprecision.
