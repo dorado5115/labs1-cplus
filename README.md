@@ -6,6 +6,17 @@ Copyright (C) 2020 Geoffrey Porto <geoffrey.porto@tecmilenio.mx>
 Class: fundaments of C++ (c11)
 
 ## Definitions
+
+### Variables
+bool: almacena el valor verdadero o falso.
+char: normalmente un solo octeto (un byte). Este es un tipo entero.
+int: El tamaño más natural de entero para la máquina.
+float: un valor de punto flotante de precisión simple.
+doble: un valor de coma flotante de doble precisión.
+void: Representa la ausencia de tipo.
+wchar_t: un tipo de carácter amplio.
+
+### Operadores aritimétiicos
 Los operadores aritméticos se pueden utilizar para combinaciones apropiadas de estos tipos:				
 * x + y // sumar
 * +x // incrementar
@@ -15,6 +26,7 @@ Los operadores aritméticos se pueden utilizar para combinaciones apropiadas de 
 * x / y // dividir
 * x% y // resto (módulo) para enteros
 
+### Operadores de comparación
 También pueden los operadores de comparación:
 * x == y // igual
 * x! = y // no es igual
