@@ -34,6 +34,15 @@ También pueden los operadores de comparación:
 * x> y // mayor que
 * x <= y // menor o igual x> = y // mayor o igual que
 
+### Markdown
+Shell:      console, Shell
+Bash:       bash, sh, zsh
+Powershell: powershell, ps
+Dos:        dos, bat, cmd
+
+```{r, engine='zsh', count_lines}
+   sudo your cmd
+```
 
 ## Labs of Class
 Escribe los algoritmos para cada uno de los siguientes problemas:
