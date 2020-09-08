@@ -36,16 +36,16 @@ Escribe los algoritmos para cada uno de los siguientes problemas:
 * 2. PARIMPAR: Determinar si el número dado como dato de entrada es “par” o “impar”  y Obtener y desplegar la suma de los impares de 1 a n donde n será dato de entrada.
 */
 
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*  NOMBRE:                                      FECHA:                              *
-*  MATRICULA:                                                                       *
-*  OBJETIVO: CALCULAR LA DISTANCIA ENTRE DOS PUNTOS USANDO TEOREAM DE PITAGORA      *
-*                                                                                   *
-*  ENTRADA: LAS COORDENADAS DE LOS DOS PUNTOS (X1, Y1) y (X2 , Y2)                  *
-*  SALIDA: LA DISTANCIA ENTRE LOS DOS PUNTOS                                        *
-*  COMPILACIÓN: sudo g++ -DPDISTANCIA nombre-equipo-lab1.cpp -o bin/distancia       *
-*                                                                                   *
-* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*  NOMBRE:                                      FECHA:                            *
+*  MATRICULA:                                                                     *
+*  OBJETIVO: CALCULAR LA DISTANCIA ENTRE DOS PUNTOS USANDO TEOREAM DE PITAGORA    *
+*                                                                                 *
+*  ENTRADA: LAS COORDENADAS DE LOS DOS PUNTOS (X1, Y1) y (X2 , Y2)                *
+*  SALIDA: LA DISTANCIA ENTRE LOS DOS PUNTOS                                      *
+*  COMPILACIÓN: sudo g++ -DPDISTANCIA nombre-equipo-lab1.cpp -o bin/distancia     *
+*                                                                                 *
+* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
    
 ```cpp
 
@@ -94,15 +94,15 @@ int main() {
 
 ```
 
-/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*  NOMBRE:                                     FECHA:                               *
-*  MATRICULA:                                                                       *
-*  OBJETIVO: CALCULAR EL PAR O IMPARR DE LOS NUMERO                                 *
-*                                                                                   *
-*  ENTRADA: NUMEROS ENTEROS                                                         *
-*  SALIDA: MOSTRAR SI EL(OS) SON PAR O IMPAR                                        *
-*  COMPILACIÓN: sudo g++ -DPARIMPAR class.cpp -o bin/parimpar                       *
-* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*  NOMBRE:                                     FECHA:                             *
+*  MATRICULA:                                                                     *
+*  OBJETIVO: CALCULAR EL PAR O IMPARR DE LOS NUMERO                               *
+*                                                                                 *
+*  ENTRADA: NUMEROS ENTEROS                                                       *
+*  SALIDA: MOSTRAR SI EL(OS) SON PAR O IMPAR                                      *
+*  COMPILACIÓN: sudo g++ -DPARIMPAR class.cpp -o bin/parimpar                     *
+* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
    
 ```cpp
 
