@@ -75,7 +75,7 @@ Puede utilizar una declaración de "cambio" dentro de otra declaración de "camb
 ### Librerias base
 Las librerias base más importantes de C++.
 * iostream
-Este archivo define los objetos cin, cout, cerr y clog, que corresponden al flujo de entrada estándar, el flujo de salida estándar, el flujo de error estándar sin búfer y el flujo de error estándar con búfer, respectivamente.
+** Este archivo define los objetos cin, cout, cerr y clog, que corresponden al flujo de entrada estándar, el flujo de salida estándar, el flujo de error estándar sin búfer y el flujo de error estándar con búfer, respectivamente.
 
 * iomanip
 Este archivo declara servicios útiles para realizar E / S formateadas con los llamados manipuladores de flujo parametrizados, como setw y setprecision.
