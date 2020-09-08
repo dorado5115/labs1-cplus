@@ -31,14 +31,17 @@ Escribe los algoritmos para cada uno de los siguientes problemas:
 ```cpp
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*  NOMBRE:                                      FECHA:                            *
+*  NOMBRE:  GEOFFREY PORTO                                    FECHA:              *
 *  MATRICULA:                                                                     *
 *  OBJETIVO: CALCULAR LA DISTANCIA ENTRE DOS PUNTOS USANDO TEOREAM DE PITAGORA    *
 *  ENTRADA: LAS COORDENADAS DE LOS DOS PUNTOS (X1, Y1) y (X2 , Y2)                *
 *  SALIDA: LA DISTANCIA ENTRE LOS DOS PUNTOS                                      *
-*  COMPILACIÓN: sudo g++ -DPDISTANCIA nombre-equipo-lab1.cpp -o bin/distancia     *
 *                                                                                 *
 * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+```console
+   sudo g++ -DPDISTANCIA nombre-equipo-lab1.cpp -o bin/distancia     *
+```
 
 #ifdef DISTANCIA
 
@@ -88,7 +91,7 @@ int main() {
 ```cpp
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*  NOMBRE:                                     FECHA:                            *
+*  NOMBRE:  GEOFFREY PORTO                                     FECHA:            *
 *  MATRICULA:                                                                    *
 *  OBJETIVO: CALCULAR EL PAR O IMPARR DE LOS NUMERO                              *
 *  ENTRADA: NUMEROS ENTEROS                                                      *
