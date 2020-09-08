@@ -7,20 +7,20 @@ Class: fundaments of C++ (c11)
 
 ## Definitions
 Los operadores aritméticos se pueden utilizar para combinaciones apropiadas de estos tipos:				
-x + y // sumar
-+x // incrementar
-x − y // menos
-−x // decrementar
-x ∗ y // multiplicar
-x / y // dividir
-x% y // resto (módulo) para enteros
+* x + y // sumar
+* +x // incrementar
+* x − y // menos
+* −x // decrementar
+* x ∗ y // multiplicar
+* x / y // dividir
+* x% y // resto (módulo) para enteros
 
 También pueden los operadores de comparación:
-x == y // igual
-x! = y // no es igual
-x <y // menor que
-x> y // mayor que
-x <= y // menor o igual x> = y // mayor o igual que
+* x == y // igual
+* x! = y // no es igual
+* x <y // menor que
+* x> y // mayor que
+* x <= y // menor o igual x> = y // mayor o igual que
 
 
 ## Labs of Class
@@ -32,7 +32,6 @@ Escribe los algoritmos para cada uno de los siguientes problemas:
 *  NOMBRE:                                      FECHA:                            *
 *  MATRICULA:                                                                     *
 *  OBJETIVO: CALCULAR LA DISTANCIA ENTRE DOS PUNTOS USANDO TEOREAM DE PITAGORA    *
-*                                                                                 *
 *  ENTRADA: LAS COORDENADAS DE LOS DOS PUNTOS (X1, Y1) y (X2 , Y2)                *
 *  SALIDA: LA DISTANCIA ENTRE LOS DOS PUNTOS                                      *
 *  COMPILACIÓN: sudo g++ -DPDISTANCIA nombre-equipo-lab1.cpp -o bin/distancia     *
@@ -90,7 +89,6 @@ int main() {
 *  NOMBRE:                                     FECHA:                            *
 *  MATRICULA:                                                                    *
 *  OBJETIVO: CALCULAR EL PAR O IMPARR DE LOS NUMERO                              *
-*                                                                                *
 *  ENTRADA: NUMEROS ENTEROS                                                      *
 *  SALIDA: MOSTRAR SI EL(OS) SON PAR O IMPAR                                     *
 *  COMPILACIÓN: sudo g++ -DPARIMPAR class.cpp -o bin/parimpar                    *
