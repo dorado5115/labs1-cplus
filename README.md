@@ -311,3 +311,106 @@ int main() {
 ```{r, engine='zsh', count_lines}
    sudo g++ -DPARIMPAR nombre-equipo-lab1.cpp -o bin/parimpar
 ```
+
+
+
+## LABORATORIO DE ALGORITIMOS I
+
+1. Crear algoritimo para obtener y despliega el área de un triángulo cuando el usuario proporciona como datos de entrada la base y la altura.
+2. Crear algoritimo para determinr si el número dado por el usuario es “primo”, "negativo < -10 ",“positivo > 100 ” o “cero”.
+3. Crear algoritimo para determinar el promedio de los números pares y el promedio de los números impares de una lista de valores enteros proporcionada por el usuario donde el último número es un cero.
+
+
+```cpp
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*  NOMBRE:                                     FECHA:                               *
+*  MATRICULA:                                                                       *
+*  OBJETIVO: CALCULAR EL AREA DEL TRIANGULO                                         *
+*                                                                                   *
+*  ENTRADA:                                                                         *
+*  SALIDA: MOSTRAR EL AREA DEL TRIANGULO                                            *
+*  COMPILACIÓN: sudo g++ -DAREATRRINAGULO equipo-nombre-lab1.cpp -o bin/areatriangulo *
+* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+#ifdef AREATRIANGULO
+//Código aqui...
+
+#endif
+
+#ifdef NUMEROSPRIMONEGPOSCERO
+//Código aqui...
+
+#endif
+
+#ifdef PROMEDIOSPARESIMPARES
+//Código aqui...
+
+#endif
+
+```
+
+
+## LABORATORIO DE ALGORITIMOS II
+
+1. Crear algoritimo para determinar el área y volumen de un cilindro dado su radio (R) y altura (H).
+2. Crear algoritimo para determinar el total a pagar por el cliente en una tienda que ofrece descuentos por temporada dependiendo del total comprado:
+    * Si la compra es menor a 300 pesos, el descuento es del 5%.
+    * Si la compra es de 301 a 1000 pesos, el descuento es del 5%.
+    * Si la compra es superior a 100 pesos el descuento es del 15%.
+3. Para un estudio meteorológico se registra el promedio de temperatura diaria. Con base en los registros de 15 dias, se debe obtener la siguiente información:
+    * La mayor temperatura de la quincena y el día en el que ocurrió.
+    * La menor temperatura de la quincena y el día en el que ocurrió.
+    * La temperatura promedio de la quincena.
+    * La temperatura promedio de la primera semana del mes.
+    * La temperatura promedio de la segunda semana del mes.
+
+
+```cpp
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*  NOMBRE:                                     FECHA:                               *
+*  MATRICULA:                                                                       *
+*  OBJETIVO: CALCULAR LA AREA Y VOLUMEN DEL CILINDRO                                *
+*  ENTRADA:                                                                         *
+*  SALIDA: MOSTRAR EL AREA Y VOLUMEN DEL CILINDRO                                   *
+*  COMPILACIÓN: sudo g++ -DAREAVOLCILINDRO equipo-nombre-lab2.cpp -o bin/areavolcilindro *
+* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+#ifdef AREAVOLCILINDRO
+//Agrega tu Código aqui...
+
+#endif
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*  NOMBRE:                                     FECHA:                               *
+*  MATRICULA:                                                                       *
+*  OBJETIVO: CALCULAR EL TOTAL A PAGAR DEL CLIENTE                                  *
+*  ENTRADA:                                                                         *
+*  SALIDA: MOSTRAR EL TOTAL A PAGAR DEL CLIENTE                                     *
+*  COMPILACIÓN: sudo g++ -DTOTALAPAGAR equipo-nombre-lab2.cpp -o bin/totalapagar    *
+* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#ifdef TOTALAPAGAR
+//Agrega tu Código aqui...
+
+#endif
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*  NOMBRE:                                     FECHA:                               *
+*  MATRICULA:                                                                       *
+*  OBJETIVO: CALCULAR DATOS METEOROLOGICOS                                          *
+*  ENTRADA:                                                                         *
+*  SALIDA: MOSTRAR LOS DATOS METEOROLOGICOS                                         *
+*  COMPILACIÓN: sudo g++ -DMETEOROLOGIA equipo-nombre-lab2.cpp -o bin/meteorologia  *
+* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#ifdef METEOROLIGIA
+//Agrega tu Código aqui...
+
+#endif
+
+```
