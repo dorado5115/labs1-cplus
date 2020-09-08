@@ -161,5 +161,5 @@ int main() {
 
 ## Compilation and linking 
 ```{r, engine='zsh', count_lines}
-   sudo g++ -DPARIMPAR nombre-equipo-lab1.cpp -o bin/distancia
+   sudo g++ -DPARIMPAR nombre-equipo-lab1.cpp -o bin/parimpar
 ```
