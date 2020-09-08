@@ -1,6 +1,6 @@
 # labs1-cplus
 
-#LABORATORIO DE ALGORITIMOS 
+# LABORATORIO DE ALGORITIMOS 
 
 * Copyright (C) 2020 Geoffrey Porto <geoffrey.porto@tecmilenio.mx>
 * Class: Fundaments of programming in C++ (c11)
