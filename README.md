@@ -32,6 +32,7 @@
     
     Representa la ausencia de tipo.
 * wchar_t
+    
     Un tipo de carácter amplio.
 
 
