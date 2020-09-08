@@ -408,7 +408,7 @@ int main() {
 *  SALIDA: MOSTRAR LOS DATOS METEOROLOGICOS                                         *
 *  COMPILACIÓN: sudo g++ -DMETEOROLOGIA equipo-nombre-lab2.cpp -o bin/meteorologia  *
 * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-#ifdef METEOROLIGIA
+#ifdef METEOROLOGIA
 //Agrega tu Código aqui...
 
 #endif
