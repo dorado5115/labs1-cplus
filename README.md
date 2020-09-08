@@ -45,48 +45,55 @@ También pueden los operadores de comparación:
 ### Loops y bucles
 Los ciclos repetitivos de ejecucion código.
 * Loop "while"
-Repite una declaración o un grupo de declaraciones mientras una condición determinada es verdadera. Prueba la condición antes de ejecutar el cuerpo del bucle.
+
+    Repite una declaración o un grupo de declaraciones mientras una condición determinada es verdadera. Prueba la condición antes de ejecutar el cuerpo del bucle.
 
 * Lopp "For"
-Ejecuta una secuencia de declaraciones varias veces y abrevia el código que administra la variable de ciclo.
+
+    Ejecuta una secuencia de declaraciones varias veces y abrevia el código que administra la variable de ciclo.
 
 * Lopp "do ... while"
-Como una declaración "while", excepto que prueba la condición al final del cuerpo del bucle.
+
+    Como una declaración "while", excepto que prueba la condición al final del cuerpo del bucle.
 
 * Loops anidados
-Puede utilizar uno o más bucles dentro de cualquier otro bucle "while", "for" o "do.. while".
+
+    Puede utilizar uno o más bucles dentro de cualquier otro bucle "while", "for" o "do.. while".
 
 ### Declaraciones de Decisión (If, else, switch )
 * declaración "If"
 
-Una declaración "si" consta de una expresión booleana seguida de una o más declaraciones.
+    Una declaración "si" consta de una expresión booleana seguida de una o más declaraciones.
 
 * declaración "if ... else"
 
-Una instrucción "if" puede ir seguida de una instrucción "else" opcional, que se ejecuta cuando la expresión booleana es falsa.
+    Una instrucción "if" puede ir seguida de una instrucción "else" opcional, que se ejecuta cuando la expresión booleana es falsa.
 
 * declaración "switch"
 
-Una declaración de "cambio" permite probar la igualdad de una variable con una lista de valores.
+    Una declaración de "cambio" permite probar la igualdad de una variable con una lista de valores.
 
 * declaraciones "if" anidadas
 
-Puede utilizar una declaración "si" o "más si" dentro de otra declaración "si" o "más si".
+    Puede utilizar una declaración "si" o "más si" dentro de otra declaración "si" o "más si".
 
 * declaraciones de "switch" anidadas
-Puede utilizar una declaración de "cambio" dentro de otra declaración de "cambio".
+
+    Puede utilizar una declaración de "cambio" dentro de otra declaración de "cambio".
 
 ### Librerias base
 Las librerias base más importantes de C++.
 * iostream
 
-Este archivo define los objetos cin, cout, cerr y clog, que corresponden al flujo de entrada estándar, el flujo de salida estándar, el flujo de error estándar sin búfer y el flujo de error estándar con búfer, respectivamente.
+    Este archivo define los objetos cin, cout, cerr y clog, que corresponden al flujo de entrada estándar, el flujo de salida estándar, el flujo de error estándar sin búfer y el flujo de error estándar con búfer, respectivamente.
 
 * iomanip
-Este archivo declara servicios útiles para realizar E / S formateadas con los llamados manipuladores de flujo parametrizados, como setw y setprecision.
+    
+    Este archivo declara servicios útiles para realizar E / S formateadas con los llamados manipuladores de flujo parametrizados, como setw y setprecision.
 
 * fstream
-Este archivo declara servicios para el procesamiento de archivos controlado por el usuario. Lo discutiremos en detalle en el capítulo relacionado con archivos y secuencias.
+
+    Este archivo declara servicios para el procesamiento de archivos controlado por el usuario. Lo discutiremos en detalle en el capítulo relacionado con archivos y secuencias.
 
 ### Markdown para Consola
 * Shell:      console, Shell
