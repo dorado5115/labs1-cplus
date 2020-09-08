@@ -39,7 +39,7 @@ Escribe los algoritmos para cada uno de los siguientes problemas:
 *                                                                                 *
 * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-```{r, engine='bash', count_lines}
+```{r, engine='sh', count_lines}
    sudo g++ -DPDISTANCIA nombre-equipo-lab1.cpp -o bin/distancia
 ```
 
