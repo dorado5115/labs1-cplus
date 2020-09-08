@@ -28,8 +28,7 @@ Escribe los algoritmos para cada uno de los siguientes problemas:
 * DISTANCIA: Calcular y desplegar la distancia que existe entre dos puntos dado que se proporcionan como dato de entrada los dos puntos (x1, y1) y (x2, y2).
 * PARIMPAR: Determinar si el número dado como dato de entrada es “par” o “impar”  y Obtener y desplegar la suma de los impares de 1 a n donde n será dato de entrada.
 
-
-
+```cpp
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 *  NOMBRE:  GEOFFREY PORTO                                    FECHA:              *
 *  MATRICULA:                                                                     *
@@ -38,12 +37,6 @@ Escribe los algoritmos para cada uno de los siguientes problemas:
 *  SALIDA: LA DISTANCIA ENTRE LOS DOS PUNTOS                                      *
 *                                                                                 *
 * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-
-```{r, engine='zsh', count_lines}
-   sudo g++ -DPDISTANCIA nombre-equipo-lab1.cpp -o bin/distancia
-```
-
-```cpp
 
 #ifdef DISTANCIA
 
@@ -88,6 +81,10 @@ int main() {
 
 #endif
 
+```
+## Compilation and linking 
+```{r, engine='zsh', count_lines}
+   sudo g++ -DDISTANCIA nombre-equipo-lab1.cpp -o bin/distancia
 ```
 
 ```cpp
@@ -160,4 +157,9 @@ int main() {
 
 #endif
 
+```
+
+## Compilation and linking 
+```{r, engine='zsh', count_lines}
+   sudo g++ -DPARIMPAR nombre-equipo-lab1.cpp -o bin/distancia
 ```
