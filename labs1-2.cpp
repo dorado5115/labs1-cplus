@@ -261,8 +261,8 @@ LABORATORIO DE ALGORITIMOS II
 1. Crear algoritimo para determinar el área y volumen de un cilindro dado su radio (R) y altura (H).
 2. Crear algoritimo para determinar el total a pagar por el cliente en una tienda que ofrece descuentos por temporada dependiendo del total comprado:
     * Si la compra es menor a 300 pesos, el descuento es del 5%.
-    * Si la compra es de 301 a 1000 pesos, el descuento es del 5%.
-    * Si la compra es mayor que a 1000 pesos el descuento es del 15%.
+    * Si la compra es de 301 a 1000 pesos, el descuento es del 15%.
+    * Si la compra es mayor que a 1000 pesos el descuento es del 25%.
 3. Para un estudio meteorológico se registra el promedio de temperatura diaria. Con base en los registros de 15 dias, se debe obtener la siguiente información:
     * La mayor temperatura de la quincena y el día en el que ocurrió.
     * La menor temperatura de la quincena y el día en el que ocurrió.
