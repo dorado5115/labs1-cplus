@@ -5,7 +5,7 @@
 // -----------------------------------------------------------------------------
 /*
 
-### Variables
+### Variables si// hola
 bool: almacena el valor verdadero o falso.
 char: normalmente un solo octeto (un byte). Este es un tipo entero.
 int: El tamaño más natural de entero para la máquina.
